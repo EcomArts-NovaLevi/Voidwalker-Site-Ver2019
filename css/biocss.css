@@ -1,0 +1,72 @@
+@charset "utf-8";
+#Info {
+	width: 980px;
+	height: 750px;
+	float: right;
+	text-align: left;
+	margin-top: -300px;
+	margin-right: 20px;
+	background-color: rgba(0, 0, 0, 0.75);
+	text-shadow: 2px 2px black;
+	padding: 10px;
+	overflow: auto;
+}
+p {
+	color: #d0def4;
+	font-family: Lucida, monospace;
+}
+ul {
+	width: 500px;
+	height: 650px;
+	margin-left: -30px;
+	color: #d0def4;
+	font-family: Lucida, monospace;
+	float: left;
+	line-height: 225%;
+	list-style-type: none;
+}
+#Biostuff {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: black;
+	float: left;
+	width: 505px;
+	height: 660px;
+	background-attachment: fixed;
+}
+h3 {
+	color: #d0def4;
+	clear: left;
+	font-family: Arial;
+	text-shadow: 3px 3px black;
+}
+h3 a {
+	text-decoration: none;
+	color: #d0def4;
+}
+a:hover {
+	color: #64818C;
+}
+#Pic {
+	border: 5px solid black;
+	float: left;
+	margin-top: 15px;
+	height: 15%;
+	width: 15%;
+}
+#Pic2 {
+	border: 5px solid black;
+  	position: fixed;
+	width: 15%;
+  	z-index: 1;
+	left: 8px;
+	margin-top: 15px; 
+	transition: 0.25s;
+}
+.togbut {
+	height: 30px;
+	width: 150px;
+	background-color: #d0def4;
+	border: 3px solid black;
+	color: black;
+	margin: 10px;
+}

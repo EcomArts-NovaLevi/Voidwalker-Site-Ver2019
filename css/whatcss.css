@@ -1,0 +1,146 @@
+@charset "utf-8";
+@import url(https://use.typekit.net/yvi3yyd.css);
+html {	
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-image: url("../images/staticnotstatic.jpg");
+	background-color: #000;
+}
+header {
+	background-image: url("../images/grad.png");
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 100px;
+	font-family: Courier, monospace;
+	padding: 5px 0 0 5px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.5em;
+}
+h3 {
+	opacity: 0.75;
+	font-family: Courier, monospace;
+}
+span {
+	font-family: balboa-plus-fill, sans-serif;
+}
+nav {
+	border: 5px solid #ffffff;
+	background-color: #F4CD87;
+	color: #0C0C0C;
+	width: 850px;
+	text-align: center;
+	padding: 15px 50px 15px 50px;
+	display: block;
+	margin: 50px auto 0 auto;
+	border-radius: 20px;
+}
+nav a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #000;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+hr {
+	border: 1px solid #000;
+	width: 600px;
+}
+p {
+	font-family: Lucida, monospace;
+	text-indent: 50px;
+}
+a {
+	text-decoration: none;
+}
+#wrapbox {
+	background-color: rgba(244,205,135, .75);
+	width: 1100px;
+	height: 750px;
+	display: block;
+	margin: 50px auto 40px auto;
+	padding: 25px;
+}
+#clear {
+	clear: both;
+}
+#mc_embed_signup {
+	clear:left; 
+	font-family: Lucida, monospace;  
+	width: 250px;
+	max-height: 300px;
+	margin: auto;
+}
+/*.button {
+	height: 30px;
+	width: 125px;
+	background-color: #fffba4;
+	border: 4px solid white;
+	color: black;
+	display: block;
+	margin: 30px auto 5px auto;
+}*/
+.titlefield {
+	float: left;
+	width: 200px;
+	margin: 0 0 5px 0;
+}
+.inputfield {
+	margin: 0 0 5px 0;
+	width: 125px;
+	float: right;
+}
+.datefield {
+	float: right;
+}
+.para {
+	width: 600px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+}
+.sidebx {
+	width: 280px;
+	height: 400px;
+	float: right;
+	clear: right;
+	background-color: rgba(244,205,135, .5);
+	margin: 10px 10px 20px 10px;
+	padding: 10px;
+}
+.sidebx img {
+	width: 20%;
+	float: left;
+}
+.sidebx div {
+	display: block;
+	margin: 0 auto 30px auto;
+	width: 200px;
+	clear: both;
+}
+.sidebx a {
+	font-family: balboa-plus-fill, sans-serif;
+	font-size: 1.2em;
+	clear: both;
+	margin-left: 5px;
+	text-decoration: none;
+	color: #000;
+}
+.sidebx a:hover {
+	background-color: rgba(244,205,135, .75);
+}
+.togbut {
+	height: 30px;
+	width: 150px;
+	background-color: #fffba4;
+	border: 4px solid white;
+	color: black;
+	margin: 20px auto 0 auto;
+	display: block;
+}
+.togbut:hover {
+	background-color: #F2BD5C;
+}

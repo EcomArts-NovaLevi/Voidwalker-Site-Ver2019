@@ -1,0 +1,301 @@
+@charset "utf-8";
+@import url(https://use.typekit.net/yvi3yyd.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html {	
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-color: #000;
+}
+div {
+	display: inline-block;
+	border: 5px solid #ffffff;
+	float: center;
+	margin: 100px 15px 0px 15px;
+}
+span {
+	font-family: balboa-plus-fill, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.3em;
+	padding: 0px 5px 0px 5px;
+	visibility: hidden;
+	color: white;
+}
+a {
+	color: white;
+}
+#galvanize {
+	border: 0px solid #ffffff;
+	display: block;
+	margin: 0 auto 0 auto;
+	max-width: 1400px;
+	padding-bottom: 100px;
+	padding-left: 90px;
+}
+.bgalvanize {
+	border: 0px solid #ffffff;
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 600px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+}
+.togbut {
+	height: 30px;
+	width: 150px;
+	background-color: #fffba4;
+	border: 4px solid white;
+	color: black;
+	margin: 10px;
+}
+#Aaron:hover {
+	border: 5px solid #87d6ee;
+}
+#Aaron:hover .AMt {
+	visibility: visible;
+	background-color: #87d6ee;
+	color: black;
+}
+#Nate:hover {
+	border: 5px solid #2922ea;
+}
+#Nate:hover .NHt {
+	visibility: visible;
+	background-color: #2922ea;
+	color: white;
+}
+#Simon:hover {
+	border: 5px solid #24dd30;
+}
+#Simon:hover .SPt {
+	visibility: visible;
+	background-color: #24dd30;
+	color: black;
+}
+#Ren:hover {
+	border: 5px solid #506eff;
+}
+#Ren:hover .RKt {
+	visibility: visible;
+	background-color: #506eff;
+	color: black;
+}
+#Isha:hover {
+	border: 5px solid #C70039;
+}
+#Isha:hover .IAt {
+	visibility: visible;
+	background-color: #C70039;
+	color: white;
+}
+#Aki:hover {
+	border: 5px solid #af3dff;
+}
+#Aki:hover .AYt {
+	visibility: visible;
+	background-color: #af3dff;
+	color: white;
+}
+#Jacob:hover {
+	border: 5px solid #000000;
+}
+#Jacob:hover .JWt {
+	visibility: visible;
+	background-color: #000000;
+	color: white;
+}
+#Kari:hover {
+	border: 5px solid #8240ec;
+}
+#Kari:hover .KFt {
+	visibility: visible;
+	background-color: #8240ec;
+	color: black;
+}
+#Alex:hover {
+	border: 5px solid #9c0057;
+}
+#Alex:hover .AxMt {
+	visibility: visible;
+	background-color: #9c0057;
+	color: black;
+}
+#Ashton:hover {
+	border: 5px solid #9a7a51;
+}
+#Ashton:hover .AsMt {
+	visibility: visible;
+	background-color: #9a7a51;
+	color: black;
+}
+#HyunAe:hover {
+	border: 5px solid #ff61f8;
+}
+#HyunAe:hover .HSt {
+	visibility: visible;
+	background-color: #ff61f8;
+	color: black;
+}
+#Grace:hover {
+	border: 5px solid #00d2ff;
+}
+#Grace:hover .GBIt {
+	visibility: visible;
+	background-color: #00d2ff;
+	color: black;
+}
+#Katya:hover {
+	border: 5px solid #f9bf0d;
+}
+#Katya:hover .AAt {
+	visibility: visible;
+	background-color: #f9bf0d;
+	color: black;
+}
+#Voce:hover {
+	border: 5px solid #fffba4;
+}
+#Voce:hover .VDt {
+	visibility: visible;
+	background-color: #fffba4;
+	color: black;
+}
+#Labs:hover {
+	border: 5px solid #d20000;
+}
+#Labs:hover .MrNt {
+	visibility: visible;
+	background-color: #d20000;
+	color: black;
+}
+#Asher:hover {
+	border: 5px solid #f0853d;
+}
+#Asher:hover .ASt {
+	visibility: visible;
+	background-color: #f0853d;
+	color: black;
+}
+div.selected {
+	border: 7px solid #c7a413;
+}
+.torgbutn {
+	background-color: #540000;
+}
+header {
+	background-image: url("../images/grad.png");
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 100px;
+	font-family: Courier, monospace;
+	padding: 5px 0 0 5px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.5em;
+}
+h3 {
+	opacity: 0.75;
+	font-family: Courier, monospace;
+}
+#Aaron {
+	background-image: url("../images/AMnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Nate {
+	background-image: url("../images/NHnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Simon {
+	background-image: url("../images/SPnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Ren {
+	background-image: url("../images/RKnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Isha {
+	background-image: url("../images/Ishnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Aki {
+	background-image: url("../images/AYnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Jacob {
+	background-image: url("../images/JacobShot.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Kari {
+	background-image: url("../images/KFnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Alex {
+	background-image: url("../images/AleMnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Ashton {
+	background-image: url("../images/AsMnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#HyunAe {
+	background-image: url("../images/HAnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Grace {
+	background-image: url("../images/GBInewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Katya {
+	background-image: url("../images/AAnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Voce {
+	background-image: url("../images/VDnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Labs {
+	background-image: url("../images/MrNnewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
+#Asher {
+	background-image: url("../images/AshNewer.png");
+	height: 120px;
+	width: 120px;
+	opacity: 1;
+}
